@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/txv_dp_title"
+            android:layout_marginTop="0dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poem_0101_title"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/txv_dp_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poem_0101_content"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txv_dp_bg"
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poem_0101_background"
+            android:textSize="20sp"
+            />
+
+        <TextView
+            android:id="@+id/txv_dp_comp"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/poem_0101_comp"
+            android:autoLink="all"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpecialHtd"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="历史上的那天"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:layout_marginTop="100dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="指定日期"
+        android:textSize="30sp"
+        android:layout_marginTop="180dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="(格式mmdd,如04,05)"
+        android:textSize="15sp"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edt_month_htd"
+            android:layout_marginLeft="150dp"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="月"
+            />
+
+        <EditText
+            android:id="@+id/edt_day_htd"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:hint="日"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_begin_special_htd"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始特定日期的每日一诗"
+        android:layout_marginHorizontal="100dp"/>
+
+</LinearLayout>

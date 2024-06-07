@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="今日关键词："
+            android:textSize="30sp"
+            />
+        <TextView
+            android:id="@+id/txv_ffo_daily_word"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="30sp"
+            />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edt_ffo_ans"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的答案"
+        />
+
+    <Button
+        android:id="@+id/btn_ffo_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="发送给雕龙评判"
+        android:textSize="20sp"
+        android:layout_marginHorizontal="100dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="这是雕龙的评判："
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/txv_ffo_ai_response"
+        android:layout_width="wrap_content"
+        android:layout_height="270dp"
+        android:textSize="15sp"
+        />
+
+    <Button
+        android:id="@+id/btn_ref_poems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="参考例句"
+        android:layout_marginHorizontal="100dp"
+        />
+
+</LinearLayout>
